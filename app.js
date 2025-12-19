@@ -41,10 +41,37 @@
 //     console.log("Not Allow")
 // }
 
-var userage = +prompt("Enter your Age")
+// var userage = +prompt("Enter your Age")
 
-if(userage >= 18){
-    document.writeln("Allow")
-}else{
-    document.writeln("Not Allow")
-}
+// if(userage >= 18){
+//     document.writeln("Allow")
+// }else{
+//     document.writeln("Not Allow")
+// }
+
+
+
+// Class 5
+
+
+// var Email = prompt("Enter your Email")
+// var Password = prompt("Enter your Password")
+
+// var loginemail = prompt("Login Email")
+// var loginpassword = prompt("Login Password")
+
+// if(Email === loginemail && Password === loginpassword){
+//     alert("Successfully Login")
+// }else{
+//     alert("Invalid User")
+// }
+
+var English = prompt("English Obtained Marks:")
+var Urdu = prompt("Urdu Obtained Marks:")
+var Math = prompt("Maths Obtained Marks:")
+var Science = prompt("Science Obtained Marks:")
+var Computer = prompt("Computer Obtained Marks:")
+
+var Obt = English + Urdu + Math + Science + Computer
+
+alert(Obt)
